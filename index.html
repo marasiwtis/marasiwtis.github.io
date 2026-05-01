@@ -3,41 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Γρηγόρης Ζολώτας - Μηχανολόγος Μηχανικός</title>
+    <meta name="description" content="Grigoris Zolotas is a mechanical engineer and product design specialist focused on 3D CAD, mechanical design, prototyping, and engineering problem solving.">
+    <title>Grigoris Zolotas | Mechanical Engineer & Product Designer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>ΓΡΗΓΟΡΗΣ ΖΟΛΩΤΑΣ</h1>
-        <p>ΜΗΧΑΝΟΛΟΓΟΣ ΜΗΧΑΝΙΚΟΣ | ΣΧΕΔΙΑΣΤΗΣ ΠΡΟΪΟΝΤΩΝ</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    <header class="hero" id="home">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home">GZ</a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
+
+        <div class="hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">Mechanical Engineer · Product Design · CAD Automation</p>
+                <h1>Engineering ideas into practical, manufacturable products.</h1>
+                <p class="hero-text">I help turn concepts, technical requirements, and production problems into clean 3D models, drawings, prototypes, and reliable mechanical solutions.</p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#contact">Start a project</a>
+                    <a class="button secondary" href="Grigoris%20Zolotas.pdf" download>Download CV</a>
+                </div>
+            </div>
+
+            <aside class="profile-card" aria-label="Profile summary">
+                <img src="grigoris.jpg" alt="Grigoris Zolotas" class="profile-img">
+                <h2>Grigoris Zolotas</h2>
+                <p>Mechanical Engineer focused on mechanical design, 3D CAD, prototyping, and design optimization.</p>
+                <a href="mailto:gregory.zol.123@hotmail.com">gregory.zol.123@hotmail.com</a>
+            </aside>
+        </div>
     </header>
 
-    <section class="content">
-        <img src="grigoris.jpg" alt="Grigoris Zolotas" class="profile-img">
+    <main>
+        <section class="section" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">What I do</p>
+                <h2>Engineering support for real-world products</h2>
+            </div>
+            <div class="cards three-columns">
+                <article class="card">
+                    <h3>Mechanical Design</h3>
+                    <p>3D CAD modelling, assemblies, technical drawings, design reviews, and manufacturability improvements.</p>
+                </article>
+                <article class="card">
+                    <h3>Product Development</h3>
+                    <p>From early concepts to functional prototypes using rapid prototyping, iteration, and practical engineering judgement.</p>
+                </article>
+                <article class="card">
+                    <h3>Workflow Automation</h3>
+                    <p>Support for CAD/BOM workflows, Excel automation, data cleanup, and engineering process improvements.</p>
+                </article>
+            </div>
+        </section>
 
-        
-        <h2>About Me</h2>
-        <p>Μηχανολόγος μηχανικός με εξειδίκευση στον μηχανολογικό σχεδιασμό (2D/3D) και τη βελτιστοποίηση σχεδιασμού. Με ενθουσιάζει το να φέρνω καινοτόμες ιδέες σε φυσική μορφή χρησιμοποιώντας τον συνδυασμό μεθόδων ταχείας πρωτοτυποποίησης και αυτοματισμών.  </p>
+        <section class="section split" id="experience">
+            <div>
+                <p class="eyebrow">Experience</p>
+                <h2>Mechanical design experience in industrial environments</h2>
+                <p>I have worked on mechanical design, product improvement, and technical documentation for manufacturing-focused companies.</p>
+            </div>
+            <div class="timeline">
+                <article>
+                    <h3>E.V.A.K. S.A.</h3>
+                    <p>Design Engineer — mechanical design, product development, CAD work, and engineering documentation.</p>
+                </article>
+                <article>
+                    <h3>V. Kyparissis & Co.</h3>
+                    <p>Mechanical Engineer — engineering support, technical design tasks, and practical product development experience.</p>
+                </article>
+                <article>
+                    <h3>V. Kyparissis & Co.</h3>
+                    <p>Internship — first hands-on engineering experience in a professional mechanical design environment.</p>
+                </article>
+            </div>
+        </section>
 
-        <h2>Work Experience</h2>
-        <div class="work-boxes">
-            <a href="ebak.html" class="work-box">🔹 Ε.Β.Α.Κ A.E. (Μηχανικός Σχεδίασης)</a>
-            <a href="kyparissis.html" class="work-box">🔹 Β. ΚΥΠΑΡΙΣΣΗΣ & ΣΙΑ ΕΤΕ (Μηχανολόγος Μηχανικός)</a>
-            <a href="intern.html" class="work-box">🔹 Β. ΚΥΠΑΡΙΣΣΗΣ & ΣΙΑ ΕΤΕ (Πρακτική)</a>
-        </div>
+        <section class="section dark" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">Focus areas</p>
+                <h2>Built around practical engineering and problem solving</h2>
+            </div>
+            <div class="cards three-columns">
+                <article class="card dark-card">
+                    <h3>CAD & Technical Drawings</h3>
+                    <p>Clear, structured models and drawings that support production, communication, and future design changes.</p>
+                </article>
+                <article class="card dark-card">
+                    <h3>3D Printing & Prototyping</h3>
+                    <p>Fast physical validation of ideas, fit checks, custom components, and iterative product improvement.</p>
+                </article>
+                <article class="card dark-card">
+                    <h3>Automation & Electronics</h3>
+                    <p>Practical experimentation with Arduino, control systems, sensors, and small automation projects.</p>
+                </article>
+            </div>
+        </section>
 
-        <h2>Λήψη Βιογραφικού</h2>
-        <p>📄 <a href="Grigoris%20Zolotas.pdf" download>Κλικ για λήψη βιογραφικού (PDF)</a></p>
-    </section>
+        <section class="section contact-section" id="contact">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2>Have a product, part, or engineering problem?</h2>
+                <p>Send me a short message with what you need. I can help with mechanical design, CAD work, prototyping, and technical problem solving.</p>
+            </div>
 
-    <footer>
-        <p>📩 Contact me at <a href="mailto:gregory.zol.123@hotmail.com">gregory.zol.123@hotmail.com</a></p>
-        <p>© 2025 Grigoris Zolotas | Mechanical Engineer</p>
+            <form class="contact-form" action="https://formspree.io/f/xovjndza" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project or question" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me what you need..." required></textarea>
+
+                <button class="button primary" type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Grigoris Zolotas · Mechanical Engineer</p>
+        <p><a href="mailto:gregory.zol.123@hotmail.com">gregory.zol.123@hotmail.com</a></p>
     </footer>
 </body>
 </html>
